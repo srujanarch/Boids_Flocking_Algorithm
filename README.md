@@ -16,6 +16,8 @@ The three fundamental rules are:
 
 A goal-seeking component is also included to allow the swarm to move toward a target.
 
+![Boids Flocking Algorithm Simulation](Simulation.gif)
+
 ## 🧠 Boids Rules
 
 ### 1. Separation
