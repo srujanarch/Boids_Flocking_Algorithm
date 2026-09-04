@@ -1,8 +1,8 @@
-# 🐦 Boids-Based Three-Drone Swarm
+#  Boids-Based Three-Drone Swarm
 
 A three-drone swarm simulation implementing the **Boids flocking algorithm** for decentralized swarm coordination.
 
-## 📌 Overview
+##  Overview
 
 Boids is a classic swarm-intelligence algorithm that reproduces collective behavior using simple local rules.
 
@@ -18,7 +18,7 @@ A goal-seeking component is also included to allow the swarm to move toward a ta
 
 ![Boids Flocking Algorithm Simulation](Simulation.gif)
 
-## 🧠 Boids Rules
+##  Boids Rules
 
 ### 1. Separation
 
@@ -68,7 +68,7 @@ Moves the swarm toward a desired target.
 Swarm ───────────────► Target
 ```
 
-## 🔗 Combined Behavior
+##  Combined Behavior
 
 The drone's final velocity is determined from the weighted combination of these behaviors.
 
@@ -86,7 +86,7 @@ Final Velocity
 Drone Motion
 ```
 
-## 🎯 Objectives
+##  Objectives
 
 * Simulate decentralized swarm behavior.
 * Maintain a cohesive three-drone formation.
@@ -95,7 +95,7 @@ Drone Motion
 * Navigate toward a target.
 * Study emergent swarm behavior.
 
-## ⚙️ Parameters
+##  Parameters
 
 | Parameter           | Purpose                          |
 | ------------------- | -------------------------------- |
@@ -107,13 +107,13 @@ Drone Motion
 | `max_speed`         | Maximum drone velocity           |
 | `dt`                | Simulation time step             |
 
-## ▶️ Run
+##  Run
 
 ```bash
 python boids_three_drones.py
 ```
 
-## 📊 Evaluation
+##  Evaluation
 
 The simulation can be evaluated using:
 
@@ -125,7 +125,7 @@ The simulation can be evaluated using:
 * Swarm cohesion
 * Alignment error
 
-## ⚠️ Limitations
+##  Limitations
 
 Pure Boids does not provide guaranteed collision avoidance or global path planning.
 
@@ -145,7 +145,7 @@ Waypoint Planner
 Global Navigation
 ```
 
-## 🔬 Future Work
+##  Future Work
 
 * Dynamic obstacles
 * Formation control
